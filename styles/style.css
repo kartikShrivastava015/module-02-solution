@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: darkgoldenrod;
+    text-align: center;
+    height: 50px;
+    padding-top: 50px;
+}
+
+.container-1{
+    background-color: black;
+}
+
+.container-2{
+    background-color: cadetblue;
+    display:flex;
+    width: 100%;
+}
+
+.box-1{
+    background-color:orangered;
+    width: 33%;
+    /* margin-right: 2%; */
+}
+
+.box-2{
+    background-color: blue;
+    width: 33%;
+    /* margin-left: 2%; */
+}
+
+.box-3{
+    background-color: chartreuse;
+    width: 33%;
+}
+
+.box-1 , .box-2 , .box-3{
+    text-align: center;
+    margin-top: 2%;
+    height: 200px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.heading{
+    float: right;
+    margin-left: 100%;
+    width: 30%;
+    height: 30px;
+    padding-top: 10px;
+    background-color: red;
+}
+
+@media (min-width:768px) and (max-width:991px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navbar{
+        background-color: darkgoldenrod;
+        text-align: center;
+        height: 50px;
+        padding-top: 50px;
+    }
+    
+    .container-1{
+        background-color: black;
+    }
+    
+    .container-2{
+        background-color: cadetblue;
+        display:block;
+        width: 100%;
+    }
+    
+    .box-1{
+        background-color:orangered;
+        float: left;
+        width: 45%;
+        /* margin-right: 2%; */
+    }
+    
+    .box-2{
+        background-color: blue;
+        float: left;
+        width: 47%;
+        /* margin-left: 2%; */
+    }
+    
+    .box-3{
+        background-color: chartreuse;
+        float: left;
+        width: 95%;
+       
+    }
+    
+    .box-1 , .box-2 , .box-3{
+        text-align: center;
+        margin-top: 2%;
+        height: 200px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+}
+
+@media (max-width: 767px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navbar{
+        background-color: darkgoldenrod;
+        text-align: center;
+        height: 50px;
+        padding-top: 50px;
+    }
+    
+    .container-1{
+        background-color: black;
+    }
+    
+    .container-2{
+        background-color: cadetblue;
+        display:flex;
+        flex-direction: column;
+        height: 545px;
+        align-items: center;
+    }
+    
+    .box-1{
+        background-color:orangered;
+        width: 33%;
+        /* margin-right: 2%; */
+    }
+    
+    .box-2{
+        background-color: blue;
+        width: 33%;
+        /* margin-left: 2%; */
+    }
+    
+    .box-3{
+        background-color: chartreuse;
+        width: 33%;
+    }
+    
+    .box-1 , .box-2 , .box-3{
+        text-align: center;
+        margin-top: 2%;
+        height: 30%;
+        width: 80%;
+        word-wrap: break-word;
+    }
+    
+    .heading{
+        float: right;
+        margin-left: 100%;
+        width: 30%;
+        height: 30px;
+        padding-top: 10px;
+        background-color: red;
+    }
+    
+    
+}
